@@ -1,0 +1,31 @@
+{
+  "name": "rpi-2-project",
+  "version": "1.0.0",
+  "description": "Raspbery 2 custom NAS & Jellyfin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nati-mask/rpi-2-project.git"
+  },
+  "keywords": [
+    "Raspberry",
+    "NAS",
+    "Jellyfin"
+  ],
+  "author": "Nati Mask",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/nati-mask/rpi-2-project/issues"
+  },
+  "homepage": "https://github.com/nati-mask/rpi-2-project#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "commander": "^6.2.0"
+  }
+}
